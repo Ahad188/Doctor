@@ -1,8 +1,8 @@
-import doctor1 from '../assets/images/Doctor1.jpeg' 
-import doctor2 from '../assets/images/Doctor2.jpeg' 
-import doctor3 from '../assets/images/Doctor3.jpeg' 
+import doctor1 from '../../../assets/images/Doctor1.jpeg' 
+import doctor2 from '../../../assets/images/Doctor2.jpeg' 
+import doctor3 from '../../../assets/images/Doctor3.jpeg' 
 
-const Home = () => {
+const Hero = () => {
      return (
            <>
                {/*hero section  */}
@@ -55,4 +55,4 @@ const Home = () => {
      );
 };
 
-export default Home;
+export default Hero;
