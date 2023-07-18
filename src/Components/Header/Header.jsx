@@ -37,7 +37,7 @@ import { useEffect, useRef } from 'react';
                display: 'Doctor'
           },
           {
-               path:'/services',
+               path:'services',
                display: 'Services'
           },
           {
@@ -55,7 +55,7 @@ import { useEffect, useRef } from 'react';
                          </div>
                          {/* menu */}
                          <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-                              <ul className="menu flex items-center gap-[2.7rem]">
+                              <ul className="menu flex flex-row items-center gap-[2.7rem]">
                                    {
                                         navLink.map((link,index)=><li key={index}>
                                              <NavLink to={link.path} className={navClass=>navClass.isActive ? "text-primaryColor text-[16px] leading-7 font-[600]" : "text-textColor text-[16px] leading-7 font-[500] hover:text-primaryColor"}>{link.display}</NavLink>

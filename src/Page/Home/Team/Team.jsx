@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import TeamCard from "./TeamCard";
+import { Link } from "react-router-dom";
  
 
  
@@ -23,10 +24,9 @@ const Team = () => {
                                   doctor.slice(0,6).map(doc=> <TeamCard key={doc.id} doc={doc}></TeamCard>)
                                }
                          </div>
-
                     </div>
                     <div className="text-center">
-                    <button className="btn ">See All</button>
+                    <Link to='/doctor' className="btn">More..</Link>
                     </div>
                </div> 
           </section>

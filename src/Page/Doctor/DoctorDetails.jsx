@@ -1,9 +1,12 @@
-import React from 'react';
+import { useLoaderData } from "react-router-dom";
+
+ 
 
 const DoctorDetails = () => {
+     const data = useLoaderData()
      return (
           <div>
-               <h2>Doctor details</h2>
+               <h2>Doctor details {data}</h2>
           </div>
      );
 };

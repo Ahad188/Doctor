@@ -6,7 +6,7 @@ import { BsArrowRightCircle} from "react-icons/bs";
 
 const Services = () => {
      return (
-          <section>
+          <section id='services'>
                <div className="container">
                     <div className="lg:w-[470px] mx-auto">
                          <h2 className="heading text-center">
