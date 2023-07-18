@@ -20,7 +20,7 @@ const PopularServices = () => {
                     <h2 className="heading text-center">Our Medical Services</h2>
                     <p className="text_pera text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente illum maxime <br /> sit corrupti accusamus doloribus.</p>
 
-                    <div className="  p-10 mt-10">
+                    <div className=" p-10 mt-10">
                          <div className="grid md:grid-cols-2 gap-16">
                               {services.map(ser=><Card key={ser.id} ser={ser}></Card>)}
                          </div>
