@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emily Johnson",
+    "specialization": "Cardiology",
+    "rating": 4.8,
+    "image": "image-url-1.jpg",
+    "description": "Dr. Emily Johnson is a highly experienced cardiologist...",
+    "location": "123 Main Street, Cityville",
+    "officeHours": "Monday-Friday: 9am-5pm"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Michael Smith",
+    "specialization": "Dermatology",
+    "rating": 4.6,
+    "image": "image-url-2.jpg",
+    "description": "Dr. Michael Smith is a renowned dermatologist...",
+    "location": "456 Elm Street, Townsville",
+    "officeHours": "Tuesday-Thursday: 10am-6pm"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sarah Davis",
+    "specialization": "Pediatrics",
+    "rating": 4.9,
+    "image": "image-url-3.jpg",
+    "description": "Dr. Sarah Davis is a compassionate pediatrician...",
+    "location": "789 Oak Street, Villageland",
+    "officeHours": "Monday-Friday: 8am-4pm"
+  },
+  {
+    "id": 4,
+    "name": "Dr. David Wilson",
+    "specialization": "Orthopedics",
+    "rating": 4.7,
+    "image": "image-url-4.jpg",
+    "description": "Dr. David Wilson is an expert orthopedic surgeon...",
+    "location": "321 Pine Street, Townsville",
+    "officeHours": "Monday, Wednesday, Friday: 9am-3pm"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Jennifer Lee",
+    "specialization": "Ophthalmology",
+    "rating": 4.5,
+    "image": "image-url-5.jpg",
+    "description": "Dr. Jennifer Lee is a skilled ophthalmologist...",
+    "location": "987 Maple Avenue, Cityville",
+    "officeHours": "Monday-Thursday: 10am-6pm"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Robert Anderson",
+    "specialization": "Neurology",
+    "rating": 4.9,
+    "image": "image-url-6.jpg",
+    "description": "Dr. Robert Anderson is a renowned neurologist...",
+    "location": "654 Oak Street, Villageland",
+    "officeHours": "Tuesday, Thursday: 9am-5pm"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Jessica Brown",
+    "specialization": "Gynecology",
+    "rating": 4.7,
+    "image": "image-url-7.jpg",
+    "description": "Dr. Jessica Brown is a dedicated gynecologist...",
+    "location": "789 Elm Street, Cityville",
+    "officeHours": "Monday-Friday: 10am-6pm"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Thomas Wilson",
+    "specialization": "ENT (Ear, Nose, and Throat)",
+    "rating": 4.6,
+    "image": "image-url-8.jpg",
+    "description": "Dr. Thomas Wilson is a skilled ENT specialist...",
+    "location": "321 Main Street, Townsville",
+    "officeHours": "Monday, Wednesday, Friday: 8am-4pm"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Amanda Taylor",
+    "specialization": "Psychiatry",
+    "rating": 4.8,
+    "image": "image-url-9.jpg",
+    "description": "Dr. Amanda Taylor is a compassionate psychiatrist...",
+    "location": "987 Pine Street, Cityville",
+    "officeHours": "Tuesday-Thursday: 9am-5pm"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Christopher White",
+    "specialization": "Urology",
+    "rating": 4.5,
+    "image": "image-url-10.jpg",
+    "description": "Dr. Christopher White is a renowned urologist...",
+    "location": "654 Maple Avenue, Villageland",
+    "officeHours": "Monday, Wednesday, Friday: 9am-5pm"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Elizabeth Clark",
+    "specialization": "Endocrinology",
+    "rating": 4.9,
+    "image": "image-url-11.jpg",
+    "description": "Dr. Elizabeth Clark is an expert endocrinologist...",
+    "location": "123 Elm Street, Cityville",
+    "officeHours": "Monday-Friday: 9am-5pm"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Daniel Martinez",
+    "specialization": "Gastroenterology",
+    "rating": 4.7,
+    "image": "image-url-12.jpg",
+    "description": "Dr. Daniel Martinez is a skilled gastroenterologist...",
+    "location": "456 Pine Street, Townsville",
+    "officeHours": "Monday-Thursday: 8am-4pm"
+  },
+  {
+    "id": 13,
+    "name": "Dr. Sophia Walker",
+    "specialization": "Dentistry",
+    "rating": 4.6,
+    "image": "image-url-13.jpg",
+    "description": "Dr. Sophia Walker is an experienced dentist...",
+    "location": "789 Main Street, Cityville",
+    "officeHours": "Monday-Friday: 10am-6pm"
+  },
+  {
+    "id": 14,
+    "name": "Dr. Samuel Adams",
+    "specialization": "Pulmonology",
+    "rating": 4.8,
+    "image": "image-url-14.jpg",
+    "description": "Dr. Samuel Adams is a highly skilled pulmonologist...",
+    "location": "321 Oak Street, Villageland",
+    "officeHours": "Tuesday, Thursday: 9am-5pm"
+  },
+  {
+    "id": 15,
+    "name": "Dr. Olivia Wilson",
+    "specialization": "Rheumatology",
+    "rating": 4.7,
+    "image": "image-url-15.jpg",
+    "description": "Dr. Olivia Wilson is a dedicated rheumatologist...",
+    "location": "987 Elm Street, Cityville",
+    "officeHours": "Monday-Friday: 8am-4pm"
+  },
+  {
+    "id": 16,
+    "name": "Dr. Ethan Thomas",
+    "specialization": "Oncology",
+    "rating": 4.9,
+    "image": "image-url-16.jpg",
+    "description": "Dr. Ethan Thomas is an expert oncologist...",
+    "location": "654 Main Street, Townsville",
+    "officeHours": "Monday, Wednesday, Friday: 9am-5pm"
+  },
+  {
+    "id": 17,
+    "name": "Dr. Natalie Collins",
+    "specialization": "Dermatology",
+    "rating": 4.6,
+    "image": "image-url-17.jpg",
+    "description": "Dr. Natalie Collins is a highly skilled dermatologist...",
+    "location": "123 Pine Street, Cityville",
+    "officeHours": "Tuesday-Thursday: 10am-6pm"
+  },
+  {
+    "id": 18,
+    "name": "Dr. Benjamin Turner",
+    "specialization": "Cardiology",
+    "rating": 4.8,
+    "image": "image-url-18.jpg",
+    "description": "Dr. Benjamin Turner is an expert cardiologist...",
+    "location": "456 Oak Street, Villageland",
+    "officeHours": "Monday-Friday: 9am-5pm"
+  },
+  {
+    "id": 19,
+    "name": "Dr. Victoria Hill",
+    "specialization": "Orthopedics",
+    "rating": 4.7,
+    "image": "image-url-19.jpg",
+    "description": "Dr. Victoria Hill is a skilled orthopedic surgeon...",
+    "location": "789 Main Street, Cityville",
+    "officeHours": "Tuesday-Thursday: 8am-4pm"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Matthew Reed",
+    "specialization": "Neurology",
+    "rating": 4.9,
+    "image": "image-url-20.jpg",
+    "description": "Dr. Matthew Reed is a renowned neurologist...",
+    "location": "321 Elm Street, Townsville",
+    "officeHours": "Monday-Friday: 10am-6pm"
+  }
+]
