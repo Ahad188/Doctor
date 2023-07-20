@@ -6,6 +6,9 @@ import AllDoctor from "../Page/Doctor/AllDoctor";
 import DoctorDetails from "../Page/Doctor/DoctorDetails";
 import Services from "../Page/Home/Services/Services";
 import Contact from "../Page/Contact/Contact";
+import Login from "../Page/Login/Login";
+import Register from "../Page/Register/Register";
+import Private from "../Private/Private";
 
 const router = createBrowserRouter([
      {
@@ -27,12 +30,20 @@ const router = createBrowserRouter([
           },
           {
                path:'/details/:id',
-               element:<DoctorDetails></DoctorDetails>,
+               element:<Private><DoctorDetails></DoctorDetails></Private>,
                loader:({params})=>fetch(`http://localhost:5000/details/${params.id}`)
           },
           {
                path:'/contact',
                element:<Contact></Contact>
+          },
+          {
+               path:'/login',
+               element:<Login></Login>
+          },
+          {
+               path:'/register',
+               element:<Register></Register>
           }
           
            

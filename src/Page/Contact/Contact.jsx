@@ -24,7 +24,7 @@ const Contact = () => {
      </div>
       <div className="form-div  ">
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className="w-[450px] mx-auto border border-[#f0722e] border-r-8 border-b-8 p-10 my-20">
+          <div className="w-[450px] mx-auto border border-[#f072] border-r-8 border-b-8 p-10 my-20">
             <div className="form-control">
               <label className="label">
                 <span className="label-text text-xl">Name :</span>
@@ -60,7 +60,7 @@ const Contact = () => {
               />
             </div>
             <div className="form-control mt-6">
-              <input type="submit" className="btn bg-[#ca5c25] w-[340px]" value=" Send" />
+              <input type="submit" className="btn w-[340px]" value=" Send" />
             </div>
           </div>
         </form>

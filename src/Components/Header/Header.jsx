@@ -1,31 +1,24 @@
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/images/logo.png'
-import user from '../../assets/images/user.jpeg'
+// import user from '../../assets/images/user.jpeg'
 import {  BiMenu } from "react-icons/bi";
-import { useEffect, useRef } from 'react';
+import {   useContext, useRef } from 'react';
+import { AuthContext } from '../../Provider/AuthProvider';
  
  
  const Header = () => {
-     const headerRef = useRef(null);
+    const {user,logOut} = useContext(AuthContext)
      const menuRef = useRef(null);
 
-     const handleStickyHeader = ()=>{
-          window.addEventListener('scroll',() =>{
-               if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-                    headerRef.current.classList.add('sticky_header')
-               }else{
-                    headerRef.current.classList.remove('sticky_header')
-               }
-          })
-     }
-     useEffect(()=>{
-          handleStickyHeader()
-          return ()=>window.removeEventListener('scroll',handleStickyHeader)
-     },[])
+      
 
      const toggleMenu = ()=> menuRef.current.classList.toggle('show_Menu')
 
-
+     const handelLogout=()=>{
+          logOut()
+          .then()
+         .catch(error => console.log(error));
+     }
 
      const navLink = [
           {
@@ -46,7 +39,7 @@ import { useEffect, useRef } from 'react';
           }
      ]
      return (
-           <header className="header flex items-center " ref={headerRef}>
+           <header className="header flex items-center "  >
                <div className="container">
                     <div className="flex justify-between items-center">
                          {/* logo */}
@@ -65,16 +58,10 @@ import { useEffect, useRef } from 'react';
                          </div>
                          {/* right nav */}
                          <div className="flex items-center gap-4">
-                              <div className='hidden'>
-                                   <Link to='/'>
-                                        <figure className='w-[35px] h-[35px] rounded-full cursor-pointer'>
-                                             <img className='w-full rounded-full' src={user} alt="" />
-                                        </figure>
-                                   </Link>
-                              </div>
-                              <Link to='/login'>
+                               
+                             {user ? <button className='btn' onClick={ handelLogout}>Logout</button> : <Link to='/login'>
                               <button className='btn bg-primaryColor py-2 px-6 text-white h-[44px] font-[600] flex items-center rounded-[50px]'>Login</button>
-                              </Link>
+                              </Link>}
                               <span className='md:hidden' onClick={toggleMenu}>
                                    <BiMenu className='w-6 h-6 cursor-pointer'></BiMenu>
                               </span>

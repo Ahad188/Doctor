@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Team = () => {
      const[doctor, setDoctor] = useState([])
      useEffect(()=>{
-          fetch('../../../../public/Data/Doctor.json')
+          fetch('http://localhost:5000/doctor')
           .then(res=>res.json())
           .then(data=>setDoctor(data))
      },[])
@@ -21,7 +21,7 @@ const Team = () => {
                     <div className=" p-10 mt-10">
                          <div className="grid md:grid-cols-3 gap-16">
                                {
-                                  doctor.slice(0,6).map(doc=> <TeamCard key={doc.id} doc={doc}></TeamCard>)
+                                  doctor.slice(0,6).map(doc=> <TeamCard key={doc._id} doc={doc}></TeamCard>)
                                }
                          </div>
                     </div>
