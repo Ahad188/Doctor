@@ -5,6 +5,7 @@ import Home from "../Page/Home/Home/Home";
 import AllDoctor from "../Page/Doctor/AllDoctor";
 import DoctorDetails from "../Page/Doctor/DoctorDetails";
 import Services from "../Page/Home/Services/Services";
+import Contact from "../Page/Contact/Contact";
 
 const router = createBrowserRouter([
      {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
                path:'/details/:id',
                element:<DoctorDetails></DoctorDetails>,
                loader:({params})=>fetch(`http://localhost:5000/details/${params.id}`)
+          },
+          {
+               path:'/contact',
+               element:<Contact></Contact>
           }
           
            
