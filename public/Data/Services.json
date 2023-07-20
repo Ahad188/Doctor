@@ -1,24 +1,24 @@
 [
      {
-       "id": 1,
+       
        "name": "General Check-up",
        "description": "Routine examination and assessment of overall health.",
        "fee": 50
      },
      {
-       "id": 2,
+       
        "name": "X-Ray",
        "description": "Radiographic imaging to diagnose and treat medical conditions.",
        "fee": 100
      },
      {
-       "id": 3,
+       
        "name": "Blood Test",
        "description": "Laboratory analysis of blood samples for diagnostic purposes.",
        "fee": 80
      },
      {
-       "id": 4,
+       
        "name": "Vaccination",
        "description": "Administration of vaccines to prevent diseases.",
        "fee": 30

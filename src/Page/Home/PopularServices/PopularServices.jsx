@@ -6,7 +6,7 @@ import Card from "./Card";
 const PopularServices = () => {
      const [services, setServices] = useState([])
      useEffect(()=>{
-          fetch('../../../../public/Data/Services.json')
+          fetch('http://localhost:5000/services')
           .then(res=>res.json())
           .then(data=>{
                // console.log(data)
@@ -22,7 +22,7 @@ const PopularServices = () => {
 
                     <div className=" p-10 mt-10">
                          <div className="grid md:grid-cols-2 gap-16">
-                              {services.map(ser=><Card key={ser.id} ser={ser}></Card>)}
+                              {services.map(ser=><Card key={ser._id} ser={ser}></Card>)}
                          </div>
 
                     </div>

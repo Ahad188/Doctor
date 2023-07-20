@@ -18,11 +18,16 @@ const router = createBrowserRouter([
           {
                path:'doctor',
                element:<AllDoctor></AllDoctor>,
-               loader:()=>fetch('../../public/Data/Doctor.json')
+               loader:()=>fetch('http://localhost:5000/doctor')
           },
           {
                path:'/services',
                element:<Services></Services>
+          },
+          {
+               path:'/details/:id',
+               element:<DoctorDetails></DoctorDetails>,
+               loader:({params})=>fetch(`http://localhost:5000/details/${params.id}`)
           }
           
            

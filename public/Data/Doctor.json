@@ -1,6 +1,7 @@
 [
   {
-    "id": 1,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Emily Johnson",
     "specialization": "Cardiology",
     "rating": 4.8,
@@ -10,7 +11,8 @@
     "officeHours": "Monday-Friday: 9am-5pm"
   },
   {
-    "id": 2,
+     "fee": 400,
+     "totalPatients": 2500,
     "name": "Dr. Michael Smith",
     "specialization": "Dermatology",
     "rating": 4.6,
@@ -20,7 +22,8 @@
     "officeHours": "Tuesday-Thursday: 10am-6pm"
   },
   {
-    "id": 3,
+     "fee": 500,
+     "totalPatients": 2200,
     "name": "Dr. Sarah Davis",
     "specialization": "Pediatrics",
     "rating": 4.9,
@@ -30,7 +33,8 @@
     "officeHours": "Monday-Friday: 8am-4pm"
   },
   {
-    "id": 4,
+     "fee": 400,
+     "totalPatients": 6520,
     "name": "Dr. David Wilson",
     "specialization": "Orthopedics",
     "rating": 4.7,
@@ -40,7 +44,8 @@
     "officeHours": "Monday, Friday: 9am-3pm"
   },
   {
-    "id": 5,
+     "fee": 330,
+     "totalPatients": 200,
     "name": "Dr. Jennifer Lee",
     "specialization": "Ophthalmology",
     "rating": 4.5,
@@ -50,7 +55,8 @@
     "officeHours": "Monday-Thursday: 10am-6pm"
   },
   {
-    "id": 6,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Robert Anderson",
     "specialization": "Neurology",
     "rating": 4.9,
@@ -60,7 +66,8 @@
     "officeHours": "Tuesday, Thursday: 9am-5pm"
   },
   {
-    "id": 7,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Jessica Brown",
     "specialization": "Gynecology",
     "rating": 4.7,
@@ -70,7 +77,8 @@
     "officeHours": "Monday-Friday: 10am-6pm"
   },
   {
-    "id": 8,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Thomas Wilson",
     "specialization": "ENT (Ear, Nose, and Throat)",
     "rating": 4.6,
@@ -80,7 +88,8 @@
     "officeHours": "Monday, Wednesday, Friday: 8am-4pm"
   },
   {
-    "id": 9,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Amanda Taylor",
     "specialization": "Psychiatry",
     "rating": 4.8,
@@ -90,7 +99,8 @@
     "officeHours": "Tuesday-Thursday: 9am-5pm"
   },
   {
-    "id": 10,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Christopher White",
     "specialization": "Urology",
     "rating": 4.5,
@@ -100,7 +110,8 @@
     "officeHours": "Monday, Wednesday, Friday: 9am-5pm"
   },
   {
-    "id": 11,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Elizabeth Clark",
     "specialization": "Endocrinology",
     "rating": 4.9,
@@ -110,7 +121,8 @@
     "officeHours": "Monday-Friday: 9am-5pm"
   },
   {
-    "id": 12,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Daniel Martinez",
     "specialization": "Gastroenterology",
     "rating": 4.7,
@@ -120,7 +132,8 @@
     "officeHours": "Monday-Thursday: 8am-4pm"
   },
   {
-    "id": 13,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Sophia Walker",
     "specialization": "Dentistry",
     "rating": 4.6,
@@ -130,7 +143,8 @@
     "officeHours": "Monday-Friday: 10am-6pm"
   },
   {
-    "id": 14,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Samuel Adams",
     "specialization": "Pulmonology",
     "rating": 4.8,
@@ -140,7 +154,8 @@
     "officeHours": "Tuesday, Thursday: 9am-5pm"
   },
   {
-    "id": 15,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Olivia Wilson",
     "specialization": "Rheumatology",
     "rating": 4.7,
@@ -150,7 +165,8 @@
     "officeHours": "Monday-Friday: 8am-4pm"
   },
   {
-    "id": 16,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Ethan Thomas",
     "specialization": "Oncology",
     "rating": 4.9,
@@ -160,7 +176,8 @@
     "officeHours": "Monday, Wednesday, Friday: 9am-5pm"
   },
   {
-    "id": 17,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Natalie Collins",
     "specialization": "Dermatology",
     "rating": 4.6,
@@ -170,7 +187,8 @@
     "officeHours": "Tuesday-Thursday: 10am-6pm"
   },
   {
-    "id": 18,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Benjamin Turner",
     "specialization": "Cardiology",
     "rating": 4.8,
@@ -180,7 +198,8 @@
     "officeHours": "Monday-Friday: 9am-5pm"
   },
   {
-    "id": 19,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Victoria Hill",
     "specialization": "Orthopedics",
     "rating": 4.7,
@@ -190,7 +209,8 @@
     "officeHours": "Tuesday-Thursday: 8am-4pm"
   },
   {
-    "id": 20,
+     "fee": 300,
+     "totalPatients": 2000,
     "name": "Dr. Matthew Reed",
     "specialization": "Neurology",
     "rating": 4.9,

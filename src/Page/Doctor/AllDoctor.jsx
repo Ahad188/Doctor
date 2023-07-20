@@ -14,7 +14,7 @@ import TeamCard from "../Home/Team/TeamCard";
                <div className="grid md:grid-cols-3   gap-28 w-full">
 
                {
-                    data.map(doc=><TeamCard key={doc.id} doc={doc}></TeamCard>)
+                    data.map(doc=><TeamCard key={doc._id} doc={doc}></TeamCard>)
                }
                </div>
           </section>

@@ -1,12 +1,13 @@
  
-import { Link,  } from "react-router-dom";
+import { Link, useNavigate,  } from "react-router-dom";
 
  
 
  
 
 const TeamCard = ({doc}) => {
-     
+     const {_id} = doc;
+     const navigate = useNavigate()
   
      return (
           <div className="h-[420px] shadow-lg shadow-blue-500/50  hover:shadow-gray-500/50 ">
@@ -19,9 +20,9 @@ const TeamCard = ({doc}) => {
                          <span>{doc.officeHours}</span>
                          <span className="text-[orange] font-[800]">{doc.rating}</span>
                     </div>
-                    <button className="btn ml-[35%]">
+                    <button className="btn ml-[35%]" onClick={()=>navigate(`/details/${_id}`)}>
 
-                    <Link className=" mb-4">Details</Link>
+                    <Link className="mb-4">Details</Link>
                     
                    
                     </button>
