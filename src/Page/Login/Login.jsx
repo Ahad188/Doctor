@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import Social from "../Social/Social";
 
  
 
@@ -58,11 +59,11 @@ const Login = () => {
         <div className="form-control mt-6">
           <input type="submit" className="btn bg-[#2e9cf0] w-80" value="Login" />
         </div>
-               <div>
+               <div className="my-2">
                     <p>I have no account ? Please <Link to='/register' className="link">Register</Link></p>
                </div>
           <div>
-           {/* <SocialLogin></SocialLogin> */}
+            <Social></Social>
           </div>
         </div>
       </form>

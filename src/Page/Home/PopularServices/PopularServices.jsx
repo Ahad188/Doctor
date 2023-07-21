@@ -13,7 +13,7 @@ const PopularServices = () => {
                setServices(data)
           })
      },[])
-     console.log(services, "ok");
+      
      return (
           <section>
                <div className="container">
