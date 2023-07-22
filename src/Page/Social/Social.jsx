@@ -2,11 +2,15 @@
 import { useContext } from "react";
 import { FaGoogle } from "react-icons/fa";
 import { AuthContext } from "../../Provider/AuthProvider";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
  
 
 const Social = () => {
      const navigate = useNavigate()
+     const location = useLocation();
+
+  const from = location.state?.from?.pathname || "/";
+
      const {googleSing} = useContext(AuthContext)
   
      const handelGoogle =()=>{
@@ -14,7 +18,16 @@ const Social = () => {
            .then((result)=>{
                const gUser = result.user
                console.log(gUser);
-               navigate('/')
+               const saveUser = { name: gUser.displayName, email: gUser.email };
+               fetch("http://localhost:5000/users", {
+                    method: "POST",
+                    headers: { "content-type": "application/json" },
+                    body: JSON.stringify(saveUser),
+                  })
+                    .then((res) => res.json())
+                    .then(() => {
+                      navigate(from, { replace: true });
+                    });
            })
            .then(err=>console.log(err))
      }

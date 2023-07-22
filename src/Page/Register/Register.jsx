@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Social from "../Social/Social";
+import Swal from "sweetalert2";
  
  
  
@@ -12,15 +13,33 @@ import Social from "../Social/Social";
 const Register = () => {
     const navigate = useNavigate()
  const {createUser} = useContext(AuthContext)
-     const { register, handleSubmit } = useForm();
+     const { register, handleSubmit,reset } = useForm();
      const onSubmit = (data) => {
           console.log(data);
-           
+          const saveUser = { name: data.name, email: data.email };
           createUser(data.email, data.password)
           .then(result => {
                const CUser = result.user;
                console.log(CUser);
-               navigate("/");
+               fetch("http://localhost:5000/users", {
+               method: "POST",
+               headers: { "content-type": "application/json" },
+               body: JSON.stringify(saveUser),
+               })
+               .then((res) => res.json())
+               .then((data) => {
+                 if (data.insertedId) {
+                    Swal.fire({
+                     position: "top-end",
+                     icon: "success",
+                     title: "User created successfully.",
+                     showConfirmButton: false,
+                     timer: 1500,
+                    });
+                    reset();
+               }
+          });
+          navigate("/");
           })
           .catch(err=>console.log(err))
 

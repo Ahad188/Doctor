@@ -9,6 +9,12 @@ import Contact from "../Page/Contact/Contact";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import Private from "../Private/Private";
+import Dashboard from "../Layout/Dashboard";
+import Alluser from "../Page/Dashboard/AllUser/Alluser";
+import AddServices from "../Page/Dashboard/AddServices/AddServices";
+import ManejServices from "../Page/Dashboard/ManejServices/ManejServices";
+import AddDoctor from "../Page/Dashboard/AddDoctor/AddDoctor";
+import ManejDoctor from "../Page/Dashboard/ManejDoctor/ManejDoctor";
 
 const router = createBrowserRouter([
      {
@@ -49,6 +55,32 @@ const router = createBrowserRouter([
            
        ]
      },
+     {
+          path:'/dashboard',
+          element:<Dashboard></Dashboard>,
+          children:[
+               {
+                    path:'/dashboard/all-users',
+                    element:<Alluser></Alluser>
+               },
+               {
+                    path:'/dashboard/add-services',
+                    element:<AddServices></AddServices>
+               },
+               {
+                    path:'/dashboard/manege-services',
+                    element:<ManejServices></ManejServices>
+               },
+               {
+                    path:'/dashboard/add-doctor',
+                    element:<AddDoctor></AddDoctor>
+               },
+               {
+                    path:'manege-doctor',
+                    element:<ManejDoctor></ManejDoctor>
+               }
+          ]
+     }
    ]);
 
 
